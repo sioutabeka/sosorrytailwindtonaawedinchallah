@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+            <h1 class="text-3xl font-bold">My Blog</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="text-gray-600 hover:text-gray-900">Home</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-gray-900">About</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-gray-900">Blog</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-gray-900">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Featured Posts Section -->
+    <section class="container mx-auto px-4 py-12">
+        <h2 class="text-2xl font-bold mb-6">Featured Posts</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://via.placeholder.com/400" alt="Post Image" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2">Post Title 1</h3>
+                    <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://via.placeholder.com/400" alt="Post Image" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2">Post Title 2</h3>
+                    <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://via.placeholder.com/400" alt="Post Image" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2">Post Title 3</h3>
+                    <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Section -->
+    <section class="bg-gray-200 py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-6">Categories</h2>
+            <div class="flex flex-wrap space-x-4 space-y-2">
+                <span class="bg-white text-gray-800 py-2 px-4 rounded-full shadow-md">Category 1</span>
+                <span class="bg-white text-gray-800 py-2 px-4 rounded-full shadow-md">Category 2</span>
+                <span class="bg-white text-gray-800 py-2 px-4 rounded-full shadow-md">Category 3</span>
+                <span class="bg-white text-gray-800 py-2 px-4 rounded-full shadow-md">Category 4</span>
+                <span class="bg-white text-gray-800 py-2 px-4 rounded-full shadow-md">Category 5</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Posts Section -->
+    <section class="container mx-auto px-4 py-12">
+        <h2 class="text-2xl font-bold mb-6">Recent Posts</h2>
+        <ul>
+            <li class="bg-white rounded-lg shadow-md p-4 mb-4">
+                <h3 class="text-xl font-bold">Recent Post Title 1</h3>
+                <p class="text-gray-600">Published on: January 1, 2022</p>
+            </li>
+            <li class="bg-white rounded-lg shadow-md p-4 mb-4">
+                <h3 class="text-xl font-bold">Recent Post Title 2</h3>
+                <p class="text-gray-600">Published on: January 2, 2022</p>
+            </li>
+            <li class="bg-white rounded-lg shadow-md p-4 mb-4">
+                <h3 class="text-xl font-bold">Recent Post Title 3</h3>
+                <p class="text-gray-600">Published on: January 3, 2022</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Newsletter Subscription Form -->
+    <section class="bg-gray-200 py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-6">Subscribe to our Newsletter</h2>
+            <form class="bg-white rounded-lg shadow-md p-6">
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700 font-bold mb-2">Email address:</label>
+                    <input type="email" id="email" name="email" class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring focus:border-blue-300" required>
+                </div>
+                <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-6">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <p class="text-gray-600">&copy; 2024 My Blog. All rights reserved.</p>
+            <div class="flex space-x-4">
+                <a href="#" class="text-gray-600 hover:text-gray-900">Facebook</a>
+                <a href="#" class="text-gray-600 hover:text-gray-900">Twitter</a>
+                <a href="#" class="text-gray-600 hover:text-gray-900">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
